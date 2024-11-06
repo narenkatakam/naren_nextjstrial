@@ -1,0 +1,32 @@
+.cases {
+    @apply py-24;
+  }
+  
+  .title {
+    @apply text-sm font-medium text-muted-foreground mb-8;
+  }
+  
+  .caseGrid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-6;
+  }
+  
+  .case {
+    @apply block space-y-4 p-6 rounded-xl bg-accent/50 hover:bg-accent/80 
+           transition-colors duration-200;
+  }
+  
+  .imageWrapper {
+    @apply relative w-full aspect-square rounded-lg;
+  }
+  
+  .caseTitle {
+    @apply text-xl font-semibold;
+  }
+  
+  .tags {
+    @apply flex gap-2;
+  }
+  
+  .buttonContainer {
+    @apply mt-12 text-center;
+  }

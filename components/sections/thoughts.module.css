@@ -1,0 +1,35 @@
+.thoughts {
+    @apply py-24;
+  }
+  
+  .title {
+    @apply text-sm font-medium text-muted-foreground mb-8;
+  }
+  
+  .thoughtGrid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+  }
+  
+  .thought {
+    @apply space-y-4 hover:opacity-80 transition-opacity duration-200;
+  }
+  
+  .imageWrapper {
+    @apply relative w-full aspect-video rounded-lg bg-accent;
+  }
+  
+  .content {
+    @apply space-y-2;
+  }
+  
+  .thoughtTitle {
+    @apply text-lg font-medium;
+  }
+  
+  .meta {
+    @apply text-sm text-muted-foreground;
+  }
+  
+  .buttons {
+    @apply mt-12 flex flex-col sm:flex-row gap-4 justify-center;
+  }

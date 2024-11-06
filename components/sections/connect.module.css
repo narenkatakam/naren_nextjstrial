@@ -1,0 +1,31 @@
+.connect {
+    @apply py-24;
+  }
+  
+  .content {
+    @apply bg-black text-white rounded-3xl p-12 text-center space-y-8;
+  }
+  
+  .title {
+    @apply text-4xl font-bold max-w-2xl mx-auto;
+  }
+  
+  .button {
+    @apply bg-white text-black hover:bg-white/90;
+  }
+  
+  .footer {
+    @apply mt-24 space-y-8;
+  }
+  
+  .links {
+    @apply flex flex-wrap gap-8 justify-center;
+  }
+  
+  .links a {
+    @apply text-sm text-muted-foreground hover:text-foreground transition-colors duration-200;
+  }
+  
+  .copyright {
+    @apply text-sm text-center text-muted-foreground;
+  }

@@ -1,0 +1,20 @@
+.case {
+    @apply block p-6 rounded-xl bg-accent/50 hover:bg-accent/80 
+           transition-colors duration-200;
+  }
+  
+  .image {
+    @apply w-full aspect-video rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 mb-4;
+  }
+  
+  .title {
+    @apply text-xl font-semibold mb-2;
+  }
+  
+  .description {
+    @apply text-muted-foreground mb-4;
+  }
+  
+  .tags {
+    @apply flex flex-wrap gap-2;
+  }
